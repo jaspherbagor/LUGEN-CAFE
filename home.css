@@ -41,7 +41,7 @@ html, body {
     --footer-fs:10px
 }
 
-
+/* Header Start */
 .navbar {
     background: #0A1627
 }
@@ -50,6 +50,16 @@ html, body {
     height:55px
 }
 
+.nav-link:hover {
+    color:var(--primary-color) !important
+}
+
 .cart-icon {
     color:#FE0039
 }
+
+.cart:hover {
+    transform: scale(1.2) !important
+}
+/* Header End */
+
