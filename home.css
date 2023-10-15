@@ -63,3 +63,8 @@ html, body {
 }
 /* Header End */
 
+/* Hero Section Start */
+.hero {
+    background:var(--body-bg)
+}
+/* Hero Section End */
