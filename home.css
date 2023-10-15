@@ -34,7 +34,7 @@ html, body {
     --navbar-bg: #0A1627;
     --text-color-light: #fff;
     --text-color-dark: #000;
-    --body-bg: #0c213d;
+    --body-bg: #03071E;
     --footer-bg: #040b14;
     
     --font-family: 'Montserrat', sans-serif;
@@ -43,7 +43,7 @@ html, body {
 
 /* Header Start */
 .navbar {
-    background: #0A1627
+    background: var(--navbar-bg)
 }
 
 .navbar-brand img {
@@ -55,7 +55,7 @@ html, body {
 }
 
 .cart-icon {
-    color:#FE0039
+    color:var(--primary-color)
 }
 
 .cart:hover {
